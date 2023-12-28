@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "createfabricfixes",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Create Fabric Fixes",
+  "description": "Fixes Bugs in Create Fabric",
   "authors": [
-    "Me!"
+    "skippyall"
   ],
   "contact": {
     "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
@@ -15,11 +15,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.modid.ExampleMod"
+      "io.github.skippyall.createfabricfixes.CreateFabricFixes"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "createfabricfixes.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",

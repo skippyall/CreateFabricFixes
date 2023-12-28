@@ -1,12 +1,14 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.example.modid.mixin",
+  "package": "io.github.skippyall.createfabricfixes.mixins",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "EntityReMixin",
+    "ItemStackHandlerSlotMixin",
+    "TransferUtilMixin"
   ],
   "client": [
-    "MinecraftMixin"
   ],
   "injectors": {
     "defaultRequire": 1
