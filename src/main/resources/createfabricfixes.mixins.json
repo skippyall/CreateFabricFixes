@@ -4,9 +4,7 @@
   "package": "io.github.skippyall.createfabricfixes.mixins",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "EntityReMixin",
-    "ItemStackHandlerMixin",
-    "ItemStackHandlerSlotMixin"
+    "ItemStackHandlerMixin"
   ],
   "client": [
   ],

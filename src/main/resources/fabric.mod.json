@@ -22,9 +22,9 @@
     "createfabricfixes.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=${fabric_loader_version}",
-    "fabric-api": ">=${fabric_api_version}",
-    "create": "${create_version}",
+    "fabricloader": "*",
+    "fabric-api": "*",
+    "create": "*",
     "minecraft": "${minecraft_version}"
   }
 }
